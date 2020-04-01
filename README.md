@@ -6,12 +6,9 @@
 _Dataset for Entrenate Model could be downloaded of this repository (link drive dataset folder)_
 
 Python Libraries needed:<br>
-pySerial<br>
-pygame<br>
-tkinter<br>
-easygui<br>
-matplotlib<br>
-pymongo<br>
+```
+pip install -r requirements.txt
+```
 
 Requirements:<br>
 -Put the serial port you will use in the in the arduinoPort variable inside the conectarArduino procedure, by this way the data will be read from the avaible port from your computer.<br>
