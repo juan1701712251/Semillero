@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>279</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>SiRap Caldas University</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Resources/Ucaldas.png</normaloff>../Resources/Ucaldas.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>281</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Artificial Vision</string>
+    </property>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="Web_Cam">
+        <property name="text">
+         <string>Web Cam</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="seleccionarCamara">
+        <property name="0" stdset="0">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>79</y>
+       <width>261</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="predict_im">
+        <property name="text">
+         <string>Predict Image</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="result">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>180</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Resources/Ucaldas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>351</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Sensors</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>331</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="placeholderText">
+      <string>Write your mongoDb query</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="collect">
+        <property name="text">
+         <string>Collect Data</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="opcionSerial"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="consult">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Consult Data</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionConsultar">
+   <property name="text">
+    <string>Consultar</string>
+   </property>
+  </action>
+  <action name="actionRecolectar">
+   <property name="text">
+    <string>Recolectar</string>
+   </property>
+  </action>
+  <action name="actionCollect">
+   <property name="text">
+    <string>Collect</string>
+   </property>
+  </action>
+  <action name="actionConsult">
+   <property name="text">
+    <string>Consult</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
