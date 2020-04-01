@@ -3,7 +3,7 @@
 ##Some data will be recolected from diferents environments using environmental sensors to check some variables as CO2, humidity, temperature, pH, ultraviolet like some other gases.<br>
 
 **Note:
-_Dataset for Entrenate Model could be downloaded of this repository _
+_Dataset for Entrenate Model could be downloaded of this repository (link drive dataset folder)_
 
 Python Libraries needed:<br>
 pySerial<br>
