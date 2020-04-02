@@ -1,6 +1,6 @@
-# Sensor Program and Artificial Vision with Tensorflow(CO2, Humidity, Temperature, TPOC)
+## Sensor Program and Artificial Vision with Tensorflow(CO2, Humidity, Temperature, TPOC)
 
-## Some data will be recolected from diferents environments using environmental sensors to check some variables as CO2, humidity, temperature, pH, ultraviolet like some other gases.<br>
+### Some data will be recolected from diferents environments using environmental sensors to check some variables as CO2, humidity, temperature, pH, ultraviolet like some other gases.<br>
 
 **Note:**
 
