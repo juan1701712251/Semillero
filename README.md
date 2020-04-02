@@ -4,7 +4,7 @@
 
 **Note:**
 
-*_Dataset for Entrenate Model could be downloaded of this repository (link drive dataset folder)_*
+*_Dataset for Entrenate Model could be downloaded of this repository https://drive.google.com/drive/folders/1ISauTzslU2SmAfkqp_hcklumDV5piaXu?usp=sharing_*
 
 Python Libraries needed:<br>
 ```
